@@ -350,6 +350,7 @@ img {
   width: 1200px;
   height: 312px;
   padding: 100px 0;
+
 }
 
 .footer-link {
@@ -375,7 +376,7 @@ img {
   max-width: 264px;
 }
 .contact-div {
-  margin-top: 40px;
+  margin-top: -80px;
   margin-left: 20px;
 }
 .footer-list {
@@ -383,14 +384,44 @@ img {
   padding: 20px;
   display: flex;
   gap: 24px;
-  justify-content: flex-end;
-  margin-top: -20px;
+  justify-content:center;
+  position: relative;
+  margin-left: 243px;
 }
 .footer-contact {
   color: white;
   text-decoration: none;
 }
-
+.social-media-container{
+  width: 208px;
+  height: 80px;
+  margin-top: -100px;
+ margin-left: 540px;
+ 
+}
+.social-media-title{
+color: var(--WHITE, #FFF);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.32px;
+}
+.social-media-list{
+  list-style: circle, white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.social-media-item{
+  fill: var(--IRIS, #4D5AE5);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  
+}
 /* portfolio */
 .main-section {
   padding-top: 96px;
