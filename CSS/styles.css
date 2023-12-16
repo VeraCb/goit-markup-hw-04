@@ -582,11 +582,4 @@ margin-bottom: 16px;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
-.link-title:hover,
-.link-title:focus {
-  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.3);
-}
-.paragraf:hover,
-.paragraf:focus {
-  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.3);
-}
+
