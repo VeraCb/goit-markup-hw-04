@@ -122,7 +122,7 @@ body {
 }
 /* main of the page */
 .hero-section {
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(https://s3-alpha-sig.figma.com/img/7c8d/46d4/7e83b6c8ee4603ea892aa8aaebb3c5fe?Expires=1703462400&Signature=ic-nLQeZM7b37gNqRM5LgDBhBgnwxwSBlyoCDNf5S76UZmJ8oqLv~~krK9JLQ3IqKESOJk0FhQGFm0xVzyHwEoNeeUA9bsp~jbr4APmtohsNAWZJE0u0rU4BAt-3dvTeTEFI8F68h5omLISH3AI7JZO6r5DCaJDo50yiLdfsRpocV35-o9HKTXoZ3bxQwGFPL0U-5CazUpfLD5mRXoVXsXMnZGVuFwGOI41TOTNI3rKIMYyp2~ixnn5MBfUVjsU80fwiaFNMBerPZULb~2FrSDwMKxeMJ46XMy-XZuEyDuKJYHhOanVCG0Ie2UEWzK1h2vaLcvTnOnimFDzDUpWSLA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
@@ -339,11 +339,10 @@ body {
 }
 
 .social-logo-icon {
-  fill: var(--IRIS, #F4F4FD);
+  fill: var(--IRIS, #f4f4f4fd);
   margin-top: 12px;
   margin-left: 12px;
-  
- 
+
 }
 
 .social-logo-link{
@@ -352,7 +351,8 @@ body {
   background-color: #4D5AE5;
   border-radius: 50%;
   display: flex;
-  align-items: center center;
+  justify-content: center;
+  align-items: center;
   
   
 
@@ -488,7 +488,8 @@ margin-bottom: 16px;
   background-color: #4D5AE5;
   border-radius: 50%;
   display: flex;
-  align-items: center center;
+  justify-content: center;
+  align-items: center;
  
 }
 .social-media-link:hover,
