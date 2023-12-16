@@ -299,9 +299,9 @@ body {
 .info-list {
   background-color: #ffffffff;
   padding-bottom: 32px;
-  border-radius: 4px;
   width: calc((100% - 72px) / 4);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 4px;
 }
 .name-post-div {
   padding: 32px 0;
@@ -340,6 +340,7 @@ body {
 
 .social-logo-icon {
   fill: var(--IRIS, #F4F4FD);
+  margin-top: 12px;
   margin-left: 12px;
   
  
@@ -351,8 +352,8 @@ body {
   background-color: #4D5AE5;
   border-radius: 50%;
   display: flex;
-  align-items: center;
-  align-items: center;
+  align-items: center center;
+  
   
 
 }
@@ -395,6 +396,7 @@ body {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   display: flex;
+  justify-content: center;
   align-items: center;
   color: var(--NAVY-BLUE, #8e8f99);
 }
@@ -476,7 +478,6 @@ margin-bottom: 16px;
 }
 .social-media-item{
   
-  fill: var(--IRIS, #4D5AE5);
   width: 40px;
   height: 40px;
   
@@ -487,8 +488,8 @@ margin-bottom: 16px;
   background-color: #4D5AE5;
   border-radius: 50%;
   display: flex;
-  align-items: center;
-  align-items: center;
+  align-items: center center;
+ 
 }
 .social-media-link:hover,
 .social-media-link:focus{
@@ -496,6 +497,7 @@ margin-bottom: 16px;
 }
 .social-media-icon{
   fill: var(--IRIS, #f4f4f4fd);
+  margin-top: 8px;
   margin-left: 8px;
 }
 /* portfolio */
@@ -552,7 +554,6 @@ margin-bottom: 16px;
 }
 .secondary-list:hover,
 .secondary-list:focus{
-  
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
 }
 .portfolio-link{
