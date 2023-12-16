@@ -340,8 +340,7 @@ body {
 
 .social-logo-icon {
   fill: var(--IRIS, #f4f4f4fd);
-  margin-top: 12px;
-  margin-left: 12px;
+  
 
 }
 
@@ -498,8 +497,7 @@ margin-bottom: 16px;
 }
 .social-media-icon{
   fill: var(--IRIS, #f4f4f4fd);
-  margin-top: 8px;
-  margin-left: 8px;
+ 
 }
 /* portfolio */
 .main-section {
