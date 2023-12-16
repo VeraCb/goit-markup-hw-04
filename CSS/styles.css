@@ -498,7 +498,7 @@ margin-bottom: 16px;
 .social-media-link:focus {
   background-color: #31d0aa;
 }
-.social-media-icon {
+.social-media-icons {
   fill: #f4f4f4fd;
  
 }
@@ -552,7 +552,7 @@ margin-bottom: 16px;
 }
 .secondary-list {
   width: calc((100% - 48px) / 3);
-  
+ 
 }
 .secondary-list:hover,
 .secondary-list:focus {
@@ -566,7 +566,6 @@ margin-bottom: 16px;
 }
 .portfolio-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
-
 }
 .link-div {
   padding: 32px 16px;
