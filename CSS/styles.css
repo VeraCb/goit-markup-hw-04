@@ -495,7 +495,7 @@ margin-bottom: 16px;
   background-color: #31d0aa;
 }
 .social-icons {
-  fill:var(#f4f4f4fd);
+  fill: var(--GRAY, #f4f4f4fd);
  
 }
 /* portfolio */
