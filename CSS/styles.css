@@ -4,6 +4,7 @@ ex. <p class="paragraf1 test>"*/
 :root {
   --brand-color: #404bbf;
   --dark-color: #2e2f42;
+  --light-color: #f4f4fd;
   --text-font-family: "Roboto", sans-serif;
 }
 * {
@@ -213,7 +214,7 @@ body {
   height: 112px;
   flex-shrink: 0;
   border-radius: 4px;
-  background-color: #f4f4fd;
+  background-color: var(--light-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -278,7 +279,7 @@ body {
 }
 /* section 4 */
 .team-section {
-  background-color: #f4f4fd;
+  background-color: var(--light-color);
   padding: 120px 0;
 }
 .list-container {
@@ -339,9 +340,7 @@ body {
 }
 
 .social-logo-icon {
-  fill: #f4f4fd;
-  
-
+ fill: var(--light-color);
 }
 
 .social-logo-link{
@@ -439,10 +438,10 @@ body {
   display: inline-block;
 }
 .second-logo {
-  color: #f4f4fd;
+  color: var(--light-color)
 }
 .footer-paragraf {
-  color: var(--CLOUD, #f4f4fd);
+  color: var(--light-color);
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -495,7 +494,7 @@ margin-bottom: 16px;
   background-color: #31d0aa;
 }
 .social-icons {
-  fill: #f4f4fd;
+  fill: var(--light-color);
  
 }
 /* portfolio */
@@ -524,7 +523,7 @@ margin-bottom: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background: var(--CLOUD, #f4f4fd);
+  background: var(--light-color);
   cursor: pointer;
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
